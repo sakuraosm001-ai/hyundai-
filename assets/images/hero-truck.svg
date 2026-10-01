@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Hyundai truck illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#edf1f4"/>
+      <stop offset="100%" stop-color="#dfe5ea"/>
+    </linearGradient>
+    <linearGradient id="truck" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e8edf3"/>
+      <stop offset="100%" stop-color="#b7bec8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <ellipse cx="680" cy="620" rx="430" ry="54" fill="#cfd7df" opacity="0.6"/>
+  <g transform="translate(160 170)">
+    <path d="M75 360h540l90-180h140c28 0 50 22 50 50v130H815c-12 58-60 99-118 99s-106-41-118-99H398c-12 58-60 99-118 99s-106-41-118-99H73c-17 0-32-14-32-32v-50c0-17 15-32 32-32h2zm90-70h350v85H165v-85zm420-95h148l-56-103H585v103z" fill="url(#truck)"/>
+    <path d="M215 270h170v100H215z" fill="#b1bac7"/>
+    <path d="M610 240h90v130h-90z" fill="#b9c3cd"/>
+    <rect x="180" y="300" width="60" height="40" rx="8" fill="#d71920"/>
+    <rect x="604" y="300" width="68" height="40" rx="8" fill="#d71920"/>
+    <circle cx="250" cy="415" r="60" fill="#32393d"/>
+    <circle cx="250" cy="415" r="28" fill="#dfe7ef"/>
+    <circle cx="720" cy="415" r="60" fill="#32393d"/>
+    <circle cx="720" cy="415" r="28" fill="#dfe7ef"/>
+    <rect x="510" y="118" width="170" height="70" rx="10" fill="#2c3238"/>
+    <rect x="535" y="138" width="120" height="30" rx="6" fill="#f5f6f7"/>
+    <path d="M660 118h120l42 70H660z" fill="#15181d"/>
+    <path d="M75 375h704" stroke="#707b86" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Truck body builder placeholder">
+  <rect width="800" height="520" fill="#edf1f4"/>
+  <rect x="90" y="170" width="620" height="220" rx="18" fill="#dfe4ea"/>
+  <rect x="160" y="210" width="440" height="140" rx="16" fill="#c3ccd5"/>
+  <rect x="620" y="250" width="56" height="110" rx="10" fill="#a8b2bc"/>
+  <rect x="120" y="214" width="40" height="120" rx="8" fill="#d71920" opacity="0.9"/>
+  <circle cx="230" cy="390" r="52" fill="#2d343a"/>
+  <circle cx="230" cy="390" r="22" fill="#dfe7ef"/>
+  <circle cx="580" cy="390" r="52" fill="#2d343a"/>
+  <circle cx="580" cy="390" r="22" fill="#dfe7ef"/>
+  <text x="400" y="110" text-anchor="middle" font-size="34" font-family="Arial, Helvetica, sans-serif" fill="#1a2026" font-weight="700">Надстройка</text>
+</svg>

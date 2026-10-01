@@ -1,0 +1,695 @@
+@media (max-width: 1100px) {
+  .site-header {
+    position: relative;
+  }
+
+  .header-inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 14px 0;
+  }
+
+  .header-branding {
+    width: auto;
+    justify-content: flex-start;
+    min-width: 0;
+  }
+
+  .header-main {
+    width: auto;
+    align-items: center;
+  }
+
+  .site-nav {
+    display: none;
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    top: calc(100% + 8px);
+    z-index: 60;
+    background: #0d1b2a;
+    border: 1px solid rgba(163, 190, 211, 0.24);
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0, 8, 18, 0.45);
+    padding: 18px 16px;
+  }
+
+  .site-nav.is-open {
+    display: block;
+  }
+
+  .site-nav ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .header-main {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-tools {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero-grid,
+  .chassis-wrap,
+  .leasing-wrap,
+  .about-wrap,
+  .contacts-wrap,
+  .engine-layout,
+  .test-drive-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .product-detail__image {
+    aspect-ratio: 16 / 10;
+  }
+
+  .product-detail__image img {
+    height: 100%;
+    min-height: 0;
+  }
+
+  .builder-grid,
+  .industry-grid,
+  .support-grid,
+  .review-grid,
+  .cases-grid,
+  .model-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .builder-card:nth-child(-n + 3) {
+    grid-column: span 2;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .is-interior-page .site-nav {
+    display: none;
+  }
+
+  .is-interior-page .menu-toggle {
+    display: none;
+  }
+
+  .header-inner {
+    gap: 10px;
+    padding: 12px 0;
+  }
+
+  .header-branding {
+    flex: 1 1 auto;
+  }
+
+  .header-main {
+    flex: 0 0 auto;
+  }
+
+  .menu-toggle {
+    flex: 0 0 48px;
+  }
+
+  .site-nav {
+    left: 10px;
+    right: 10px;
+    padding: 12px;
+  }
+
+  .site-nav ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .nav-card {
+    width: 100%;
+  }
+
+  .nav-card a {
+    min-height: 48px;
+    padding: 10px 14px;
+    color: #edf2f5;
+    line-height: 1.25;
+  }
+
+  .nav-card.is-active,
+  .nav-card:hover,
+  .nav-card:focus-within {
+    background: #23415a;
+  }
+
+  .nav-card:hover a,
+  .nav-card:focus-within a,
+  .nav-card.is-active a {
+    color: #fff;
+  }
+
+  .nav-card.is-active {
+    background: #9f202c;
+    border-color: #d45b63;
+  }
+
+  .is-interior-page main {
+    padding-top: 0;
+  }
+
+  .section-shell {
+    padding: 64px 0;
+  }
+
+  .brand__text {
+    font-size: clamp(1.2rem, 5vw, 2rem);
+    letter-spacing: -0.05em;
+  }
+
+  .site-nav ul {
+    grid-template-columns: 1fr;
+  }
+
+  .builder-grid,
+  .industry-grid,
+  .support-grid,
+  .review-grid,
+  .cases-grid,
+  .model-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-grid {
+    padding-top: 64px;
+    padding-bottom: 70px;
+  }
+
+  .benefits__photo,
+  .benefits__photo img {
+    min-height: 220px;
+  }
+
+  .hero__stats,
+  .hero__actions,
+  .model-card__actions,
+  .test-drive__benefits {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn,
+  .btn-small {
+    width: 100%;
+  }
+
+  .builder-card:nth-child(-n + 3),
+  .builder-card:nth-child(5),
+  .builder-card:nth-child(6),
+  .builder-card:nth-child(7) {
+    grid-column: span 1;
+  }
+
+  .floating-actions {
+    right: 12px;
+    bottom: 18px;
+  }
+
+  .page-back-wrap {
+    padding: 18px 0 0;
+  }
+
+  .page-back {
+    min-height: 44px;
+    padding: 0 14px;
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: clamp(2.15rem, 10vw, 3.2rem);
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+  }
+
+  h2 {
+    font-size: clamp(1.8rem, 8vw, 2.6rem);
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+  }
+
+  h3 {
+    line-height: 1.2;
+  }
+
+  .section-heading {
+    margin-bottom: 24px;
+  }
+
+  .card,
+  .hero-form,
+  .leasing-form,
+  .contacts__form,
+  .engine__spec,
+  .engine__safety {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: min(var(--container), calc(100% - 20px));
+  }
+
+  .brand {
+    max-width: 100%;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .hero-form,
+  .leasing-form,
+  .contacts__form,
+  .engine__spec,
+  .engine__safety {
+    padding: 18px 16px;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 11vw, 2.5rem);
+  }
+
+  .hero__visual img,
+  .model-card img,
+  .builder-card img,
+  .case-card img,
+  .review-card img,
+  .about-company__image img {
+    height: 220px;
+  }
+
+  .map-placeholder {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-inner {
+    gap: 8px;
+  }
+
+  .btn,
+  .btn-small {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-strong: #f1f3f5;
+  --color-surface-soft: #eef2f6;
+  --color-text: #20252b;
+  --color-text-soft: #626b75;
+  --color-line: #dfe3e7;
+  --color-primary: #e30613;
+  --color-primary-dark: #b90915;
+  --color-accent: #f02d3a;
+  --shadow-soft: 0 12px 32px rgba(20, 30, 42, 0.08);
+  --shadow-deep: 0 20px 48px rgba(20, 30, 42, 0.14);
+  --radius-xl: 20px;
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+}
+
+body {
+  background: #fff;
+  color: var(--color-text);
+  font-family: "Aptos", "Helvetica Neue", "Segoe UI", sans-serif;
+}
+
+p,
+.model-card__content ul,
+.check-list li,
+.feature-list {
+  color: var(--color-text-soft);
+}
+
+.section-shell + .section-shell {
+  border-top-color: #e8ebee;
+}
+
+.site-header,
+.site-header.scrolled {
+  background: rgba(255, 255, 255, 0.97);
+  border-bottom-color: #e8ebee;
+  box-shadow: 0 4px 18px rgba(20, 30, 42, 0.06);
+  backdrop-filter: blur(16px);
+}
+
+.header-inner {
+  gap: 14px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.brand,
+.brand__text,
+.site-header.scrolled .brand__text {
+  color: #20252b;
+}
+
+.brand__text {
+  letter-spacing: 0.015em;
+}
+
+.nav-card,
+.mini-card {
+  background: #f4f6f8;
+  border-color: #e4e8ec;
+  box-shadow: none;
+}
+
+.nav-card a,
+.mini-card,
+.site-header.scrolled .mini-card {
+  color: #30363d;
+}
+
+.nav-card:hover,
+.nav-card:focus-within {
+  background: #eaf1f7;
+  border-color: #b9cfe0;
+  box-shadow: 0 8px 20px rgba(20, 30, 42, 0.08);
+}
+
+.nav-card:hover a,
+.nav-card:focus-within a {
+  color: #20252b;
+}
+
+.nav-card.is-active,
+.nav-card.is-active:hover {
+  background: #e30613;
+  border-color: #e30613;
+  box-shadow: 0 8px 18px rgba(227, 6, 19, 0.18);
+}
+
+.nav-card.is-active a {
+  color: #fff;
+}
+
+.mini-card:hover,
+.mini-card:focus-visible {
+  border-color: #98b5cb;
+  color: #145a87;
+}
+
+.menu-toggle,
+.site-header.scrolled .menu-toggle {
+  color: #20252b;
+  background: #f4f6f8;
+  border-color: #dfe3e7;
+}
+
+.menu-toggle span,
+.site-header.scrolled .menu-toggle span {
+  color: #20252b;
+}
+
+.hero {
+  min-height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(115deg, #f6f7f8 0%, #fff 54%, #edf2f6 100%);
+}
+
+.hero-grid {
+  grid-template-columns: 1.05fr 1.15fr 0.76fr;
+  align-items: center;
+  gap: 26px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.hero__content,
+.hero__content h1,
+.hero__content .eyebrow,
+.hero__lead,
+.hero__stats {
+  color: #20252b;
+}
+
+.hero__content h1 {
+  max-width: 600px;
+}
+
+.hero__content .eyebrow,
+.eyebrow {
+  color: #176b9b;
+}
+
+.hero__lead {
+  color: #626b75;
+}
+
+.hero__visual {
+  min-height: 400px;
+  border: 0;
+  border-radius: 20px;
+  background: transparent;
+}
+
+.hero__visual::after {
+  background: linear-gradient(0deg, rgba(20, 30, 42, 0.08), transparent 42%);
+}
+
+.hero__visual img {
+  min-height: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 22px 54px rgba(20, 30, 42, 0.16);
+}
+
+.hero-form,
+.leasing-form,
+.contacts__form,
+.engine__spec,
+.engine__safety {
+  background: #fff;
+  border-color: #e3e7eb;
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-form h2,
+.contacts__form h3,
+.leasing-form h3 {
+  color: #20252b;
+}
+
+.btn-primary,
+.btn-secondary,
+.hero .btn-secondary {
+  background: #e30613;
+  border: 1px solid #e30613;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(227, 6, 19, 0.18);
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible,
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  background: #bf0712;
+  border-color: #bf0712;
+  box-shadow: 0 10px 24px rgba(227, 6, 19, 0.24);
+}
+
+.field-group label,
+.accordion-trigger {
+  color: #30363d;
+}
+
+.field-group input {
+  color: #20252b;
+  background: #fff;
+  border-color: #d9dfe4;
+}
+
+.field-group input::placeholder {
+  color: #929ba4;
+}
+
+.models,
+.about-company {
+  background: #f3f5f7;
+}
+
+.card,
+.model-card,
+.builder-card,
+.case-card,
+.review-card,
+.support-card,
+.industry-card,
+.accordion-item {
+  background: #fff;
+  border-color: #e4e8ec;
+  box-shadow: 0 10px 28px rgba(20, 30, 42, 0.07);
+  backdrop-filter: none;
+}
+
+.card:hover {
+  border-color: #c8d5df;
+  box-shadow: 0 18px 38px rgba(20, 30, 42, 0.12);
+}
+
+.model-card__tags span {
+  background: #edf3f7;
+  color: #35566d;
+}
+
+.chassis,
+.engine,
+.leasing,
+.test-drive {
+  background: #f3f5f7;
+  color: #20252b;
+}
+
+.chassis h2,
+.chassis p,
+.chassis li,
+.chassis .eyebrow,
+.engine .section-heading,
+.engine .eyebrow,
+.engine h2,
+.engine p,
+.engine li,
+.leasing__info .eyebrow,
+.leasing__info h2,
+.leasing__info li,
+.leasing__info p,
+.feature-list,
+.test-drive .eyebrow,
+.test-drive h2 {
+  color: #20252b;
+}
+
+.chassis .eyebrow,
+.engine .eyebrow {
+  color: #176b9b;
+}
+
+.chassis__visual,
+.hero__visual {
+  background: #e9edf0;
+  border-color: #dfe3e7;
+}
+
+.engine__spec,
+.engine__safety,
+.spec-grid div {
+  background: #fff;
+  border-color: #e1e6ea;
+}
+
+.spec-grid span {
+  color: #20252b;
+}
+
+.spec-grid small {
+  color: #626b75;
+}
+
+.safety-list span {
+  background: #fff1f2;
+  color: #b90915;
+  border-color: #f3c8cc;
+}
+
+.graphic-center {
+  background: #eaf1f7;
+  color: #20252b;
+}
+
+.test-drive__benefits span {
+  background: #fff;
+  border-color: #dfe3e7;
+  color: #3e4851;
+}
+
+.map-placeholder {
+  background: linear-gradient(135deg, #e8eef2, #f5f7f8);
+  color: #35566d;
+}
+
+.site-footer {
+  background: #20252b;
+  color: #e9edf0;
+}
+
+.footer-grid h3,
+.brand--footer {
+  color: #fff;
+}
+
+.footer-list {
+  color: #c7cdd2;
+}
+
+.footer-bottom {
+  border-top-color: rgba(255, 255, 255, 0.16);
+}
+
+@media (max-width: 1100px) {
+  .site-nav {
+    background: #fff;
+    border-color: #e1e6ea;
+    box-shadow: 0 16px 36px rgba(20, 30, 42, 0.14);
+  }
+
+  .nav-card a,
+  .nav-card:hover a,
+  .nav-card:focus-within a {
+    color: #30363d;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-card a {
+    color: #30363d;
+  }
+
+  .nav-card.is-active,
+  .nav-card:hover,
+  .nav-card:focus-within {
+    background: #e30613;
+    border-color: #e30613;
+  }
+
+  .nav-card.is-active a,
+  .nav-card:hover a,
+  .nav-card:focus-within a {
+    color: #fff;
+  }
+
+  .hero-grid {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .hero__visual,
+  .hero__visual img {
+    min-height: 260px;
+  }
+}

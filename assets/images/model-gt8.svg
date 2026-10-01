@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" role="img" aria-label="Hyundai Mighty GT8">
+  <rect width="1000" height="680" fill="#edf1f4"/>
+  <ellipse cx="510" cy="570" rx="380" ry="48" fill="#dfe6ec"/>
+  <g transform="translate(110 120)">
+    <path d="M85 340h460l70-150h120c26 0 46 20 46 46v110H740c-12 60-59 101-120 101s-108-41-120-101H320c-12 60-59 101-120 101S92 396 80 336H80c-18 0-32-14-32-32v-22c0-17 14-32 32-32h5zm70-55h280v70H155v-70zm300-100h112l-44-80H455v80z" fill="#c9d0d8"/>
+    <path d="M185 260H300v80H185z" fill="#a7b3be"/>
+    <path d="M470 220h94v120h-94z" fill="#b3bdc8"/>
+    <rect x="490" y="140" width="160" height="62" rx="8" fill="#1a2026"/>
+    <rect x="515" y="155" width="120" height="28" rx="4" fill="#eef2f6"/>
+    <circle cx="235" cy="390" r="56" fill="#2f373d"/>
+    <circle cx="235" cy="390" r="22" fill="#dfe7ef"/>
+    <circle cx="640" cy="390" r="56" fill="#2f373d"/>
+    <circle cx="640" cy="390" r="22" fill="#dfe7ef"/>
+    <text x="320" y="72" text-anchor="middle" font-size="34" font-family="Arial, Helvetica, sans-serif" fill="#1a2026" font-weight="700">GT8</text>
+  </g>
+</svg>
